@@ -34,6 +34,8 @@ This document describes an actor/selector-based C/C++ programming systems for di
 
 * Divide, Conquer, and Match: A Distributed and Asynchronous Approach for Subgraph Isomorphism. Youssef Elmougy, Akihiro Hayashi, Vivek Sarkar. Workshop on Graphs, Architectures, Programming, and Learning (GrAPL, co-located with IPDPS25) June 2025. [[doi](https://doi.org/10.1109/IPDPSW66978.2025.00120)]
 
+* Breaking All-Reduce Bottlenecks with Asynchronous Influence Maximization at Scale. Shubhendra Pal Singhal, Ajay Mandadi, Akihiro Hayashi, Thomas M. Conte, Vivek Sarkar. IEEE TCSC International Scalable Computing Challenge (SCALE 2026, co-located with CCGRID26). May 2026.
+
 ### Performance Evaluations/Tools
 
 * On the Cloud We Can’t Wait: Asynchronous Actors Perform Even Better on the Cloud. Aniruddha Mysore, Youssef Elmougy, Akihiro Hayashi. The Vivek Sarkar Festschrift Symposium (VIVEKFEST2024, co-located with SPLASH24). October 2024. [[doi](https://doi.org/10.1007/978-3-031-97492-2_2)]
