@@ -1,7 +1,7 @@
 site_name: HClib-Actor Documentation
-site_url: https://github.com/ahayashi/hclib-actor
+site_url: https://hclib-actor.cc.gatech.edu/
 repo_name: hclib_actor
-repo_url: https://github.com/ahayashi/hclib-actor
+repo_url: https://github.com/habanero-lab/hclib-actor
 edit_uri: blob/master/doc/markdowns
 docs_dir: markdowns
 theme:
