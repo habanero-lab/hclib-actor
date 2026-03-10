@@ -8,7 +8,7 @@ As discussed in the [background section](../background/bale.md), `hclib-actor` d
 
 === "Perlmutter@NERSC"
 
-     [perlmutter_setup.sh](https://github.com/ahayashi/hclib-actor/blob/master/cluster-scripts/perlmutter_setup.sh)
+     [perlmutter_setup.sh](https://github.com/habanero-lab/hclib-actor/blob/master/cluster-scripts/perlmutter_setup.sh)
 
 === "Cori@NERSC"
 
@@ -20,7 +20,7 @@ As discussed in the [background section](../background/bale.md), `hclib-actor` d
 
 === "PACE@GATech"
 
-    [oshmem-slurm.sh](https://github.com/ahayashi/hclib-actor/blob/master/cluster-scripts/oshmem-slurm.sh)
+    [oshmem-slurm.sh](https://github.com/habanero-lab/hclib-actor/blob/master/cluster-scripts/oshmem-slurm.sh)
 
 
 !!! tip
@@ -195,7 +195,7 @@ cd ../../../
 
 !!! note
 
-    On Perlmutter, do `patch -p1 < path/to/perlmutter.patch` in `bale` directory after `git clone`. You can find `perlmutter.patch` [here](https://github.com/ahayashi/hclib-actor/blob/f3bf2e15973f72cf6890fe189b166f1b271318db/cluster-scripts/perlmutter.patch).
+    On Perlmutter, do `patch -p1 < path/to/perlmutter.patch` in `bale` directory after `git clone`. You can find `perlmutter.patch` [here](https://github.com/habanero-lab/hclib-actor/blob/master/cluster-scripts/perlmutter.patch).
 
 
 !!! note

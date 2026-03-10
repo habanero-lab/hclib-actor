@@ -6,7 +6,7 @@ CrayPat (Cray Performance Measurement and Analysis toolset) is Cray’s performa
 Here we will take Triangle Counting selector as an example:
 
 ### Step 0: Load compilers
-It is important to load compiler modules before Step 1. In our case, `source` [perlmutter_setup.sh](https://github.com/ahayashi/hclib-actor/blob/master/cluster-scripts/perlmutter_setup.sh):
+It is important to load compiler modules before Step 1. In our case, `source` [perlmutter_setup.sh](https://github.com/habanero-lab/hclib-actor/blob/master/cluster-scripts/perlmutter_setup.sh):
 ```
 source ./perlmutter_setup.sh
 ```
