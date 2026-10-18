@@ -34,7 +34,9 @@ This document describes an actor/selector-based C/C++ programming systems for di
 
 * Divide, Conquer, and Match: A Distributed and Asynchronous Approach for Subgraph Isomorphism. Youssef Elmougy, Akihiro Hayashi, Vivek Sarkar. Workshop on Graphs, Architectures, Programming, and Learning (GrAPL, co-located with IPDPS25) June 2025. [[doi](https://doi.org/10.1109/IPDPSW66978.2025.00120)]
 
-* Breaking All-Reduce Bottlenecks with Asynchronous Influence Maximization at Scale. Shubhendra Pal Singhal, Ajay Mandadi, Akihiro Hayashi, Thomas M. Conte, Vivek Sarkar. IEEE TCSC International Scalable Computing Challenge (SCALE 2026, co-located with CCGRID26). May 2026.
+* Breaking All-Reduce Bottlenecks with Asynchronous Influence Maximization at Scale. Shubhendra Pal Singhal, Ajay Mandadi, Akihiro Hayashi, Thomas M. Conte, Vivek Sarkar. IEEE TCSC International Scalable Computing Challenge (SCALE 2026, co-located with CCGRID26). May 2026. [[doi](https://doi.org/10.1145/3806645.3816120)]
+
+* Distributed SpMV with HClib-Actor: A Case Study in Alternatives to MPI-Based PETSc. David Pang, Ajay Sharma Mandadi, Shubhendra Pal Singhal, Pulkit Gupta, Vivek Sarkar, Akihiro Hayashi, Thomas M. Conte. 9th Annual Parallel Applications Workshop, Alternatives To MPI+X (PAW-ATM, co-located with SC26)
 
 ### Performance Evaluations/Tools
 
