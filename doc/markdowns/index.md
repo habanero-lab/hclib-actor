@@ -19,6 +19,8 @@ This document describes an actor/selector-based C/C++ programming systems for di
 
 * Enhancing Productivity and Performance of HClib-Actor with Efficient Task Termination. Youssef Elmougy, Nirjhar Deb, Akihiro Hayashi, Vivek Sarkar. 27th Workshop on Advances in Parallel and Distributed Computational Models (APDCM, co-located with IPDPS25) [[doi](https://doi.org/10.1109/IPDPSW66978.2025.00090)].
 
+* Automatic Generation of Actor-based Parallelism from Shared Memory Parallel Programs. Jun Shirako and Vivek Sarkar, 34th International Conference on Parallel Architectures and Compilation Techniques (PACT), November 2025. [[doi](https://doi.org/10.1109/PACT65351.2025.00030)]
+
 ### Applications
 * Highly Scalable Large-Scale Asynchronous Graph Processing using Actors. Youssef Elmougy, Akihiro Hayashi, Vivek Sarkar. IEEE TCSC International Scalable Computing Challenge (SCALE 2023, co-located with CCGRID23), May 2023. Recipient of Best SCALE Challenge Award. [[doi](https://ieeexplore.ieee.org/document/10181177), [video](https://youtu.be/fMSbSHhsW0o)]
 
