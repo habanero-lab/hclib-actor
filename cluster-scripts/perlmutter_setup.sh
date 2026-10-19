@@ -19,7 +19,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/cray/pe/perftools/23.02.0/lib64
 if [ ! -d bale ]; then
     git clone https://github.com/jdevinney/bale.git bale
     cd bale
-    wget https://raw.githubusercontent.com/ahayashi/hclib-actor/master/cluster-scripts/perlmutter.patch
+    wget https://raw.githubusercontent.com/habanero-lab/hclib-actor/refs/heads/master/cluster-scripts/perlmutter.patch
     patch -p1 < perlmutter.patch
     cd ..
     cd bale/src/bale_classic
