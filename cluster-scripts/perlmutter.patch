@@ -1,5 +1,5 @@
 diff --git a/src/bale_classic/convey/twohop.c b/src/bale_classic/convey/twohop.c
-index b45b25d..741d1e3 100644
+index b45b25d..56a30af 100644
 --- a/src/bale_classic/convey/twohop.c
 +++ b/src/bale_classic/convey/twohop.c
 @@ -297,7 +297,7 @@ column_advance(twohop_t* twohop)
@@ -11,3 +11,25 @@ index b45b25d..741d1e3 100644
      twohop->col_flip ^= 1;
  #else
      int error = MPI_Alltoall(twohop->send_sizes, 1, MPI_INT,
+@@ -560,7 +560,7 @@ twohop_free(convey_t* self)
+   MPI_Comm_free(&twohop->col_team);
+ #else
+   if (twohop->odd)
+-    shmemx_team_destroy(&twohop->col_team);
++    shmem_team_destroy(twohop->col_team);
+ #endif
+   free_allocs(twohop);
+   return convey_OK;
+@@ -671,10 +671,9 @@ convey_new_twohop(size_t capacity, size_t row_procs,
+   }
+ #else
+   if (twohop->odd) {
+-    shmem_team_t full_team;
+-    shmemx_team_create_strided(twohop->comm.start, twohop->comm.stride, n_procs, &full_team);
+-    shmemx_team_split(full_team, my_proc % n_cols, my_proc / n_cols, &twohop->col_team);
+-    shmemx_team_destroy(&full_team);
++    shmem_team_t row_team = SHMEM_TEAM_INVALID;
++    shmem_team_split_2d(SHMEM_TEAM_WORLD, n_cols, NULL, 0, &row_team, NULL, 0, &twohop->col_team);
++    shmem_team_destroy(row_team);
+   }
+ #endif
