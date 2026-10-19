@@ -31,21 +31,21 @@ As discussed in the [background section](../background/bale.md), `hclib-actor` d
 
 Modern HPC platforms, including Perlmutter, Frontier, and PACE, support Slurm. Users typically run applications through batch jobs by creating a job script and submitting it with sbatch, although interactive jobs are also commonly supported.
 
-Example Slurm script (`example.slurm`) for Perlmutter:
+Example Slurm script (`example.slurm`) that runs 256 PEs on 2 nodes of Perlmutter:
      
 ``` title="example.slurm"
-     #!/bin/bash
-     #SBATCH -q regular
-     #SBATCH -N 2
-     #SBATCH -C cpu
-     #SBATCH -t 0:05:00
+#!/bin/bash
+#SBATCH -q regular
+#SBATCH -N 2
+#SBATCH -C cpu
+#SBATCH -t 0:05:00
 
-     srun -n 256 ./histo_selector
+srun -n 256 ./histo_selector
 ```
 
 Submit a job:
 ```
-     sbatch example.slurm
+sbatch example.slurm
 ```
 
 Example output:
@@ -60,7 +60,7 @@ models_mask                          (-M)= 0
     
 !!! tip
 
-     Site-specific options (e.g., account, queue/partition, node type, and wall-clock limits) vary across systems such as Frontier (ORNL), Perlmutter (NERSC), and PACE (Georgia Tech). Please consult your local system documentation for the appropriate Slurm options. For example:
+     Site-specific options (e.g., account, queue/partition, node type, and wall-clock limits) vary across systems such as Perlmutter (NERSC), Frontier (ORNL), and PACE (Georgia Tech). Please consult your local system documentation for the appropriate Slurm options. For example:
 
      - [Perlmutter](https://docs.nersc.gov/jobs/)
      - [Frontier](https://docs.olcf.ornl.gov/systems/frontier_user_guide.html#running-jobs)
