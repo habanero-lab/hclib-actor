@@ -73,7 +73,7 @@ models_mask                          (-M)= 0
 
 ## Manual installation instructions
 
-This part can be done using the [Installation/initialization Scripts](https://hclib-actor.com/getting_started/clusters/#installation-scripts), but you can also install everything manually using the guide below.
+The steps below can be performed automatically using the installation and initialization scripts above. Alternatively, you may install and configure the software stack manually by following the instructions below.
 
 ### Load OpenSHMEM  
 
