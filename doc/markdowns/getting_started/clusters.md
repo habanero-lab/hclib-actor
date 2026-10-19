@@ -58,7 +58,7 @@ models_mask                          (-M)= 0
      0.140 seconds
 ```
     
-!!! tip
+!!! note
 
      Site-specific options (e.g., account, queue/partition, node type, and wall-clock limits) vary across systems such as Perlmutter (NERSC), Frontier (ORNL), and PACE (Georgia Tech). Please consult your local system documentation for the appropriate Slurm options. For example:
 
