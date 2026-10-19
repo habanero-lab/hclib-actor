@@ -39,6 +39,7 @@ This document describes an actor/selector-based C/C++ programming systems for di
 * Distributed SpMV with HClib-Actor: A Case Study in Alternatives to MPI-Based PETSc. David Pang, Ajay Sharma Mandadi, Shubhendra Pal Singhal, Pulkit Gupta, Vivek Sarkar, Akihiro Hayashi, Thomas M. Conte. 9th Annual Parallel Applications Workshop, Alternatives To MPI+X (PAW-ATM, co-located with SC26)
 
 ### Performance Evaluations/Tools
+* Performance Analysis of Conveyors: Memory Dominates?**. Shubhendra Pal Singhal, Aaron Welch, Oscar Hernandez, Steve Poole, Akihiro Hayashi, Vivek Sarkar. 6th Workshop on Performance EngineeRing, Modelling, Analysis, and VisualizatiOn STrategy (PERMAVOST, co-located with HPDC26). July 2026. [[doi](https://doi.org/10.1145/3806645.3816120)]
 
 * On the Cloud We Can’t Wait: Asynchronous Actors Perform Even Better on the Cloud. Aniruddha Mysore, Youssef Elmougy, Akihiro Hayashi. The Vivek Sarkar Festschrift Symposium (VIVEKFEST2024, co-located with SPLASH24). October 2024. [[doi](https://doi.org/10.1007/978-3-031-97492-2_2)]
 
