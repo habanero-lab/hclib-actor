@@ -1,8 +1,8 @@
 ## Prerequisites
 
-* a cluster/supercomputer with OpenSHMEM or UPC installed.
+* a cluster/supercomputer with OpenSHMEM installed.
 
-As discussed in the [background section](../background/bale.md), `hclib-actor` depends on Bale, which depends on either UPC or OpenSHMEM. Here we mainly explain steps to load OpenSHMEM, build bale, and build `hclib-actor` on three platforms: Perlmutter@NERSC, Cori@NERSC, Summit@ORNL, and PACE (Phoenix)@ GT.
+As discussed in the [background section](../background/bale.md), `hclib-actor` depends on Bale, which depends on OpenSHMEM. Here we mainly explain steps to load OpenSHMEM, build bale, and build `hclib-actor` on three platforms: Perlmutter@NERSC, Frontier@ORNL, and PACE (Phoenix)@ GT.
 
 ## Installation/initialization Scripts  
 
@@ -77,6 +77,8 @@ This part can be done using the [Installation/initialization Scripts](https://hc
 
 ### Load OpenSHMEM  
 
+The instructions below assume that OpenSHMEM is already available on your system, such as Cray OpenSHMEMX on Perlmutter and Frontier or Open MPI with OpenSHMEM support on PACE. Building an OpenSHMEM backend from source is outside the scope of this guide.
+
 === "Cray OpenSHMEMX"
 
      Use Cray OpenSHMEMX
@@ -88,7 +90,7 @@ This part can be done using the [Installation/initialization Scripts](https://hc
      export CXX=CC
      ```
 
-=== "Open MPI"
+=== "Open MPI (with OpenSHMEM enabled)"
 
     Use OpenMPI's SHMEM (OSHMEM)
     ```
@@ -102,6 +104,10 @@ This part can be done using the [Installation/initialization Scripts](https://hc
 !!! note
 
     You need to re-run the above commands every time you login to a cluster/supercomputer. You can use the corresponding platform script from the above pre-prepared scripts (`source ./{PLATFORM}_setup.sh` or `source ./oshmem-{PLATFORM}.sh`).
+
+!!! note
+
+    
 
 
 ### Build Bale and HClib
