@@ -105,11 +105,6 @@ The instructions below assume that OpenSHMEM is already available on your system
 
     You need to re-run the above commands every time you login to a cluster/supercomputer. You can use the corresponding platform script from the above pre-prepared scripts (`source ./{PLATFORM}_setup.sh` or `source ./oshmem-{PLATFORM}.sh`).
 
-!!! note
-
-    
-
-
 ### Build Bale and HClib
 
 #### Bale
